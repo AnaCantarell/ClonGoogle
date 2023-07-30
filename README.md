@@ -37,6 +37,6 @@ Las herramientas que nos proporciona Html y Css tienen diversas aplicaciones, so
 </details>
 <details>
 <summary>Vistas previas.</summary>
-[ClonGoogle](.images/previa.jpg).  
+[Vista en navegador](https://clongoogle-cantarell.netlify.app/).
 
 </details>
