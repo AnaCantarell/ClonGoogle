@@ -33,7 +33,7 @@ Empleamos el uso de cajas para introducción de texto, uso de iconos, direccione
 </details>
 <details>
 <summary>¿Beneficios y desventajas de las herramientas utilizamos?</summary>
-Las herramientas que nos proporciona Html y Css tienen diversas aplicaciones, son lenguajes relativamente sencillos de aprender, existe documentación de estos en diferentes medios que benefician el desarrollo web.
+Las herramientas que nos proporciona Html y Css tienen diversas aplicaciones, son lenguajes relativamente sencillos de aprender, existe documentación de estos en diferentes medios que benefician el desarrollo web. 
 </details>
 <details>
 <summary>Vistas previas.</summary>
