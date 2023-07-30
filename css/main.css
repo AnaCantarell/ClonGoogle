@@ -1,0 +1,208 @@
+body{
+    background-image: url('/images/Fondo.jpg');
+    /*background-size: cover; /* Ajusta la imagen de fondo para cubrir el área del body */
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    /* width - ancho /// height-alto */
+    width: 100%;
+    height: 60px;
+    /*background-color: rgb(224, 0, 123);/*Color Rosa mexicano*/
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    /*background-color: rgb(8, 119, 23);/*Color verde bandera*/
+    width: 250px;
+    /* Elimina viñetas */
+    list-style: none;
+    /* Flexibilidad del componente */
+    display: flex;
+    /* Centra horizontalmente*/
+    justify-content: center;
+    /* Centra verticalmente*/
+    align-items: center;
+}
+
+a{
+    /* Elimina línea debajo */
+    text-decoration: none;
+}
+
+nav .nav-right-section a{
+    color: rgb(21, 21, 21);
+    margin-right: 15px;
+}
+
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav .nav-right-section img{
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 35px;
+}
+
+main{
+    margin-top: 130px;
+    text-align: center;
+    /*background-color: rgb(146, 62, 7);/*Color Café oscuro*/
+}
+
+main .main-logo{
+    /*background-color: rgba(156, 15, 50, 0.884);/*Color vino*/
+    width: 530px;
+    /* setea 0 al margen de arriba y abajo -- auto (settea en auto bordes de izquierda y derecha) */
+    /* Vertical | Horizontal */
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+main .main-logo img{
+    height: 92px;
+    /*background-color: rgb(202, 148, 30);/*Color Cafe claro*/
+}
+
+main .main-input{
+    /*background-color: rgb(187, 181, 181);/*Color Gris*/
+    width: 550px;
+    margin: 0 auto;
+    /* Separación entre buscador y botones */
+    margin-bottom: 30px;
+}
+
+main .main-input-container{
+    background-color: rgb(255, 255, 255);/*Color Gris oscuro*/
+    /* ancho, estilo y color de borde */
+    border: 2px solid #dfe1e5;
+    border-radius: 20px;
+    width: 545px;
+    /* Componentes flexibles y que se muevan */
+    display: flex;
+    /* CENTRADO */
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    /*background-color: rgb(247, 32, 32);/*Color Rojo*/
+    height: 35px;
+    border: none;
+    /* outline - borde cuando seleccionas elemento */
+    outline:none;
+    width: 524px;
+}
+
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    /*background-color: #ff7d03; /*Color Naranja*/
+    background-size: contain;
+    padding-left: 6%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 15px;
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    /*background-color: rgb(159, 216, 255);/*Color azul claro*/
+    height: 17px;
+    width: 17px;
+    background-size: contain;
+    background-position: center;
+    padding-left: 3%;
+    background-repeat: no-repeat;
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    /*background-color: rgb(255, 169, 234);/*Color rosa*/
+    background-position: center;
+    background-size: contain;
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    padding-right: 3%;
+}
+
+main .main-buttons{
+    /*background-color: rgb(214, 76, 241);/*Color morado claro*/
+    width: 550px;
+    /* vertical - horizontal */
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    /* Los pone en la misma línea */
+    display: inline-block;
+}
+
+main .main-buttons button{
+    background-color: #f8f9fa;
+    border: none;
+    height: 36px;
+    font-size: 16px;
+    color: #3c4043;
+    padding: 0px 15px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Sombra */
+main .main-input-container:hover{
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 0 0 5px #20212447;
+}
+
+main .main-buttons button:hover{
+    color:#202124;
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px #20212447;
+}
+
+footer{
+    background-color: #f2f2f2;
+    width: 100%; /* ancho */
+    height: 50px; /* Alto */
+    position: absolute;
+    font-size: 13px;
+    display: grid; /* se separa en columnas*/
+    grid-template-columns: 1fr 1fr; /* ocupará 2 columnas */
+    align-items: center;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0%;
+}
+
+footer ul{
+    list-style: none;
+    display:flex;
+}
+
+footer ul a{
+    margin: 10px;
+    color: #3c4043;
+}
+
+footer .footer-left{
+    justify-content: left;
+}
+
+footer .footer-right{
+    justify-content: right;
+}
