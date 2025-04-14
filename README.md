@@ -14,20 +14,20 @@ Este proyecto se desarrolló con el objetivo de ampliar los conocimientos y apli
 <summary>¿Cómo comenzar con el proyecto?</summary>
 Es recomendable iniciar identificando y explorando las partes principales que integran la página, que son:
 
-- ** Header.** Contenido introductorio de la página web.
-- ** Body.** Contenido principal de la página web.
-- ** Footer.** Contenido al final de la página web.
+- **Header.** Contenido introductorio de la página web.
+- **Body.** Contenido principal de la página web.
+- **Footer.** Contenido al final de la página web.
 
 Además de introducir el uso de las siguientes herramientas:
 
-- ** Nav.** Sección cuyo propósito es proporcionar enlaces de navegación.
-- ** Main.** Contenido principal de un documento o aplicación.
+- **Nav.** Sección cuyo propósito es proporcionar enlaces de navegación.
+- **Main.** Contenido principal de un documento o aplicación.
 
 Empleamos el uso de cajas para introducción de texto, uso de iconos, direcciones globales de imágenes, botones, listas y demás, que fueron muy importantes para lograr la apariencia deseada. 
 </details>
 <details>
 <summary>¿Quién mantiene y contribuye con el proyecto?</summary>
-**Tecnolochicas** ha contribuido para el desarrollo de este proyecto, aportando los conocimientos básicos en Html y Css para su creación.
+<b>Tecnolochicas</b> ha contribuido para el desarrollo de este proyecto, aportando los conocimientos básicos en Html y Css para su creación.
 
 [Tecnolochicas](https://tecnolochicas.mx/).
 </details>
